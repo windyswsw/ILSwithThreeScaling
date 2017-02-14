@@ -8,13 +8,9 @@ This repository contains programs for the ILS based resource allocation algorith
 
 ## Project Structure:
 
-1. ILSwithDFSandThreeScaling folder
+1. ILSwithDFSandThreeScaling folder: Initial solution based on DFS (Source file, Header files and Input data)
 
-Initial solution based on DFS (Source file, Header files and Input data)
-
-2. ILSwithRandomandThreeScaling folder
-
-Initial solution based on random (Source file, Header files and Input data)
+2. ILSwithRandomandThreeScaling folder: Initial solution based on random (Source file, Header files and Input data)
 
 ## Guidelines to use the data and programs in the repository:
 
