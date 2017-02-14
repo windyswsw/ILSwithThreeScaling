@@ -1,0 +1,8 @@
+## Source file of the project
+
+1. Can be run as 
+#g++ -std=c++11 -o Test Test.cpp
+#./Test <scaling approach>
+
+2. Scaling approach sholud be:
+V for vertical, I for horizontal and U for migration
