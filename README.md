@@ -2,15 +2,23 @@
 
 Network Function Virtualization (NFV) is a promising technology that proposes to move network-based services from dedicated hardware middle-boxes to software running on commodity servers: Virtualized Network Functions (VNFs). As such, NFV brings the possibility of outsourcing enterprise Network Function (NFs) processing to the cloud. When an enterprise outsources its NFs to a Cloud Service Provider (CSP), the CSP is responsible for deciding: (1) where initial Virtual NFs (VNFs) should be instantiated, and (2) what, when and where additional VNFs should be instantiated to satisfy the traffic changes (scaling) with minimal impact on network performances. 
 
-In this project we introduce an Iterated Local Search (ILS) based resource allocation approach for VNFs that supports three scaling methods. ILS based resource allocation approach, starts with an initial solution (based on a simple Depth First Search: DFS approach) and continue with a selected scaling method that supports dynamic traffic changes over the time. There are three scaling choices: (1) vertical scaling, (2) migration scaling and (3) horizontal scaling. The ILS approach tries to maximize the accepted bandwidth requests while ensuring the delay experienced by each packet of the accepted requests does not exceed its relative deadline. 
+In this project we introduce an Iterated Local Search (ILS) based resource allocation approach for VNFs that supports three scaling methods. ILS based resource allocation approach, starts with an initial solution (based on a simple Depth First Search: DFS or random approach) and continue with a selected scaling method that supports dynamic traffic changes over the time. There are three scaling choices: (1) vertical scaling, (2) migration scaling and (3) horizontal scaling. The ILS approach tries to maximize the accepted bandwidth requests while ensuring the delay experienced by each packet of the accepted requests does not exceed its relative deadline. 
 
 This repository contains programs for the ILS based resource allocation algorithm.
 
 ## Project Structure:
 
-1. Source file
-2. Header files
-3. Input data
+1. Initial solution based on DFS: ILSwithDFSandThreeScaling
+
+1.Source file
+2.Header files
+3.Input data
+
+1. Initial solution based on random: ILSwithRandomandThreeScaling
+
+1.Source file
+2.Header files
+3.Input data
 
 ## Guidelines to use the data and programs in the repository:
 
